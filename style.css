@@ -1,0 +1,87 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("Untitled design.png");
+    background-size: cover;
+}
+.container{
+    position: relative;
+}
+#formal{
+    padding: 20px;
+    position: absolute;
+    left: 200px;
+    top: 60px;
+    float: center;
+    border-top: 10px solid red;
+    border-bottom: 10px solid red;
+    border-left: 20px solid gray;
+    border-right: 20px solid gray;
+    border-radius: 20px;
+}
+#formv{
+    padding: 10px;
+}
+#formv input{
+    border-radius: 15px;
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-bottom: 2px solid gray;
+    font-size: 20px;
+}
+#gender{
+    border-radius: 15px;
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-bottom: 2px solid gray;
+    font-size: 20px;
+    list-style: none;
+}
+#register{
+    border-radius: 15px;
+    padding: 10px;
+    width: 270px;
+    border: none;
+    border-bottom: 2px solid gray;
+    font-size: 20px;
+    background-color: gray;
+    cursor: pointer;
+    transition: 0.65s ease;
+}
+#register:hover{
+    color: white;
+    background-color: red;
+    transition: 0.65s ease;
+}
+#formv input:hover{
+    border: none;
+}
+#eye{
+    border: none;
+    position: absolute;
+    right: 60px;
+    top: 190px;
+    cursor: pointer;
+}
+#full{
+    position: absolute;
+    right: 60px;
+    top: 44px;
+}
+#user{
+    position: absolute;
+    right: 60px;
+    top: 117px;
+}
+#mail{
+    position: absolute;
+    right: 60px;
+    top: 337px;
+}
+#num{
+    position: absolute;
+    right: 60px;
+    bottom: 191px;
+}
